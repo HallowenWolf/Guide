@@ -1,6 +1,6 @@
  const Discord = require("discord.js");//npm i discord.js
  const fs = require("fs");//npm i fs
- const bot = new discord.Client();//создаём бота
+ const bot = new Discord.Client();//создаём бота
  const { Client } = require('pg');//npm i pg
  const { prefix, token } = require("./botconfig.json");//конфиги бота
  const moment = require("moment");//npm i moment
